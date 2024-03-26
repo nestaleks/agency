@@ -1,0 +1,40 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+          box-sizing: inherit; 
+        
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+}
+html,
+body {
+    scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+ul {
+    list-style: none;
+}
+button {
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
