@@ -194,6 +194,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 .goal__pretitle{
     margin-bottom: 5px;
@@ -407,15 +408,27 @@ button {
 }
 
 @media(max-width: 1024px) {
-
+    .goal__title{
+        width: 410px;
+        font-size: 40px;
+    }
 }
 
 @media(max-width: 940px) {
-
+    
 }
 
 @media(max-width: 768px) {
-
+    .goal__inner{
+        flex-direction: column;
+    }
+    .pretitle{
+        text-align: center;
+    }
+    .goal__title{
+        width: 100%;
+        text-align: center;
+    }
 }
 
 @media(max-width: 560px) {
@@ -433,6 +446,9 @@ button {
     .menu__list{
         width: 400px;
     }
+    .goal__title{
+        font-size: 30px;
+    }
 }
 
 @media(max-width: 480px) {
@@ -442,12 +458,14 @@ button {
     .menu__list{
         width: 300px;
     }
-
+    .goal__title{
+        line-height: 1.2;
+    }
 }
 
 @media(max-width: 360px) {
     .menu__list{
         width: 280px;
     }
-
+    
 }
