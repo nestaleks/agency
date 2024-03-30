@@ -304,6 +304,13 @@ button {
     line-height: 19.6px;
     text-align: left;
 }
+.house{
+    background-image: url(../images/house.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 100vh;
+}
 
 
 
