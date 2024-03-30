@@ -260,7 +260,7 @@ button {
 .requirements__text{
     max-width: 560px;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
 }
 .requirements__box{
     display: flex;
@@ -285,7 +285,7 @@ button {
 .requirements__item + .requirements__item{
     margin-top: 20px;
 }
-.requirements__img{
+.requirements__icon{
     margin-bottom: 9px;
 }
 .requirements__item-title{
@@ -474,7 +474,12 @@ button {
 }
 
 @media(max-width: 940px) {
-    
+    .requirements__img{
+        max-width: 400px;
+    }
+    .requirements__box {
+        gap: 20px;
+    }
 }
 
 @media(max-width: 768px) {
@@ -493,6 +498,34 @@ button {
     }
     .goal__title{
         width: 100%;
+        text-align: center;
+    }
+    .requirements__box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .requirements__img{
+        width: 480px;
+    }
+    .requirements__item{
+        width: 450px;
+        height: 200px;
+        padding: 21px;
+        text-align: center;
+    }
+    .requirements__icon{
+        width: 75px;
+        height: 75px;
+    }
+    .requirements__item-title{
+        font-size: 18px;
+        margin-bottom: 5px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .requirements__item-text{
+        font-size: 18px;
+        line-height: 1.2;
         text-align: center;
     }
 }
@@ -532,9 +565,32 @@ button {
     .menu__list{
         width: 300px;
     }
-    
     .goal__title{
         line-height: 1.2;
+    }
+    .requirements__img{
+        width: 300px;
+    }
+    .requirements__item{
+        width: 300px;
+        height: 150px;
+        padding: 15px;
+        text-align: center;
+    }
+    .requirements__icon{
+        width: 48px;
+        height: 48px;
+    }
+    .requirements__item-title{
+        font-size: 16px;
+        margin-bottom: 5px;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .requirements__item-text{
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
     }
 }
 
@@ -542,5 +598,7 @@ button {
     .menu__list{
         width: 280px;
     }
-    
+    .requirements__img{
+        width: 270px;
+    }
 }
