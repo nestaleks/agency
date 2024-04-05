@@ -386,20 +386,56 @@ button {
     font-size: 15px;
     line-height: 1.4;
 }
-
-
-
-
-
-
-
-
-.services__pretitle{
-
+.location__text{
+    max-width: 574px;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
 }
-.services__title{
-    
+.location__items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
 }
+.location__item{
+    min-height: 100%;
+    padding: 20px;
+    color: #ffffff;
+    height: 350px;
+}
+.location-1{
+    background-image: url(../images/location-1-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.location-2{
+    background-image: url(../images/location-2-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.location-3{
+    background-image: url(../images/location-3-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.location__item-title{
+    font-size: 25px;
+    line-height: 1.6;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid #ffffff;
+}
+.location__item-subtitle{
+    margin-top: 5px;
+}
+
+
+
+
 
 .services__items{
     display: flex;
@@ -599,6 +635,10 @@ button {
     }
     .listings__item-icons-text {
         font-size: 14px;
+    }
+    .location__items{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
     }
 }
 
