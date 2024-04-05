@@ -39,7 +39,7 @@ button {
     padding: 0;
 }
 .container{
-    max-width: 1240px;
+    max-width: 1440px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -200,7 +200,7 @@ button {
 }
 .goal__inner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
 }
@@ -394,8 +394,37 @@ button {
 
 
 
+.services__pretitle{
 
+}
+.services__title{
+    
+}
 
+.services__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.services__item{
+    background-color: #292C32;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 10px 0 10px;
+    height: 205px;
+}
+.services__item-img{
+    margin-bottom: 15px;
+}
+.services__item-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.services__item-text{
+    line-height: 1.2;
+}
 
 
 
@@ -583,6 +612,7 @@ button {
 }
 
 @media(max-width: 768px) {
+    
     .top__logo{
         margin: 150px auto 40px;
     }
@@ -678,7 +708,10 @@ button {
 }
 
 @media(max-width: 480px) {
-    
+    .section__title{
+        font-size: 28px;
+        line-height: 1.2;
+    }
     .menu__list{
         width: 300px;
     }
@@ -734,9 +767,25 @@ button {
         margin: 0 auto 10px;
         height: 20px;
     }
+    .services__item{
+        padding: 20px;
+        border-radius: 15px;
+        margin: 0 10px 0 10px;
+        height: 210px;
+    }
+    .services__item-title{
+        font-size: 18px;
+    }
+    .services__item-text{
+        font-size: 16px;
+    }
 }
 
 @media(max-width: 360px) {
+    .section__title{
+        font-size: 24px;
+        line-height: 1.2;
+    }
     .menu__list{
         width: 280px;
     }
@@ -750,5 +799,17 @@ button {
     .listings__item-icons-img{
         margin: 0 auto 10px;
         height: 20px;
+    }
+    .services__item{
+        padding: 15px;
+        border-radius: 10px;
+        margin: 0 10px 0 10px;
+        height: 230px;
+    }
+    .services__item-title{
+        font-size: 16px;
+    }
+    .services__item-text{
+        font-size: 14px;
     }
 }
