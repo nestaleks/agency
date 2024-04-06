@@ -157,7 +157,7 @@ button {
 .top{
     min-height: 100vh;
     position: relative;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)), url(../images/top__img.jpeg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)), url(../images/top__img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -276,6 +276,7 @@ button {
 }
 .requirements__text{
     max-width: 560px;
+    line-height: 1.4;
     text-align: center;
     margin: 0 auto 30px;
 }
@@ -459,6 +460,7 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
+    margin-bottom: 30px;
 }
 .news__item{
     display: flex;
@@ -496,6 +498,15 @@ button {
     text-align: left;
     margin-bottom: 20px;
     margin-top: auto;
+}
+.news__link{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.news__link-text{
+    font-size: 15px;
+    line-height: 1.4;
 }
 .services__items{
     display: flex;
