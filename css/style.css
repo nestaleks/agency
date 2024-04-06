@@ -205,11 +205,11 @@ button {
 }
 .partners__inner{
     display: flex;
-    justify-content: space-evenly;
-    gap: 0 20px;
+    justify-content: center;
+    gap: 0 40px;
 }
 .partner__img{
-    width: 100%;
+    width: 300px;
 }
 
 .goal{
@@ -497,9 +497,6 @@ button {
     margin-bottom: 20px;
     margin-top: auto;
 }
-
-
-
 .services__items{
     display: flex;
     justify-content: space-between;
@@ -511,7 +508,7 @@ button {
     padding: 20px;
     border-radius: 15px;
     margin: 0 10px 0 10px;
-    height: 205px;
+    height: 220px;
 }
 .services__item-img{
     margin-bottom: 15px;
@@ -631,6 +628,9 @@ button {
 @media(max-width: 1024px) {
     .section__padding{
         padding: 60px 0;
+    }
+    .partner__img{
+        width: 200px;
     }
     .goal__title{
         width: 410px;
@@ -777,6 +777,9 @@ button {
         font-size: 35px;
         line-height: 1.4;
     }
+    .partner__img{
+        width: 150px;
+    }
     .goal__title{
         font-size: 30px;
     }
@@ -798,6 +801,9 @@ button {
     }
     .menu__list{
         width: 300px;
+    }
+    .partner__img{
+        width: 120px;
     }
     .goal__title{
         line-height: 1.2;
@@ -885,6 +891,9 @@ button {
     }
     .menu__list{
         width: 280px;
+    }
+    .partner__img{
+        width: 100px;
     }
     .requirements__img{
         width: 270px;
