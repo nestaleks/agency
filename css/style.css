@@ -532,27 +532,6 @@ button {
 .services__item-text{
     line-height: 1.2;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
     background-color: #292C32;
     padding: 40px 0;
@@ -854,14 +833,6 @@ button {
     }
     .footer__inner{
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr 1fr;
-    }
-    .footer__contacts{
-        grid-column: 3 / 4;
-        grid-row: 2 / 3;
-    }
-    .footer__copy{
-        margin-right: 120px;
     }
     .footer__blockquote{
         display: none;
@@ -999,19 +970,32 @@ button {
         font-size: 16px;
     }
     .footer__inner{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
     }
     .footer__company{
-        grid-row: span 3;
+        margin: 0 auto 40px;
+    }
+    .footer__nav-logo{
+        margin: 0 auto 10px;
     }
     .footer__contacts{
-        grid-column: 3 / 4;
-        grid-row: 2 / 3;
+        margin: 0 auto;
+        text-align: center;
     }
-    .footer__copy{
-        margin-right: 120px;
+    .footer__nav-phone,
+    .footer__nav-email{
+        padding: 0;
     }
+    .footer__nav-phone::before,
+    .footer__nav-email::before{
+        display: none;
+    }
+    .footer__social-list {
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media(max-width: 360px) {
