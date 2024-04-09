@@ -46,7 +46,20 @@ icons.forEach (icon => {
   });
 });
 
+// слайдер шапки
+$('.top__slider').slick({
+  autoplay: true,
+  arrows: false,
+  dots: false,
+  infinite: true,
+  loop: true,
+  speed: 800,
+  slidesToShow: 1,
+  slidesToScroll: 1
+});
 
+
+// слайдер Услуги
 $('.services__items').slick({
     dots: false,
     infinite: true,
