@@ -226,7 +226,7 @@ button {
     font-size: 48px;
     font-weight: 400;
     line-height: 52.8px;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     text-align: left;
 }
 .goal__right{
@@ -413,6 +413,7 @@ button {
 }
 .location__items{
     display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
 }
