@@ -50,7 +50,7 @@ icons.forEach (icon => {
 $('.top__slider').slick({
   autoplay: true,
   arrows: false,
-  dots: false,
+  dots: true,
   infinite: true,
   loop: true,
   speed: 800,
