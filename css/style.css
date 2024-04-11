@@ -726,6 +726,13 @@ button {
     width: 100%;
 }
 
+/******** страница контакты ********/
+.contacts__name-title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 
 
 /******* АДАПТИВ*******/
