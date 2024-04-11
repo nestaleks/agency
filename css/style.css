@@ -367,9 +367,6 @@ button {
     background-position: top center;
     min-height: 100vh;
 }
-.listings{
-    background-color: #f0f0f0;
-}
 .listings__text{
     max-width: 574px;
     font-size: 18px;
@@ -385,7 +382,7 @@ button {
 }
 .listing__item{
     width: 100%;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -701,10 +698,33 @@ button {
     display: grid;
 }
 
-
-
-
-
+/******** страница проекта ********/
+.project__name-title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.project__name-subtitle{
+    font-size: 24px;
+    text-align: center;
+}
+.project__gallery-title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.project__gallery-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.project__gallery-item{
+    width: 100%;
+}
+.project__gallery-img{
+    width: 100%;
+}
 
 
 
@@ -839,6 +859,9 @@ button {
     .footer__contacts{
         width: 270px;
     }
+    .project__gallery-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media(max-width: 940px) {
@@ -922,6 +945,9 @@ button {
     }
     .footer__blockquote{
         display: none;
+    }
+    .project__gallery-items{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
