@@ -727,13 +727,78 @@ button {
 }
 
 /******** страница контакты ********/
+
 .contacts__name-title{
     font-size: 50px;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+}
+.contacts__items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+    justify-items: center;
+}
+.contacts__item{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.contacts__item-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contacts__item-text{
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+.contacts__item-phonenumber{
+    margin-bottom: 10px;
+}
+.contacts__item-email{
+    margin-bottom: 10px;
+    color: cornflowerblue;
 }
 
-
+/******** страница услуги ********/
+.services__name-title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services__title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.services-page__items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.services-page__item{
+    background-color: #292C32;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    height: 100%;
+}
+.services-page__item-img{
+    margin-bottom: 15px;
+}
+.services-page__item-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.services-page__item-text{
+    line-height: 1.2;
+}
 
 /******* АДАПТИВ*******/
 @media(max-width: 1440px) {
@@ -867,6 +932,9 @@ button {
         width: 270px;
     }
     .project__gallery-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .services-page__items{
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -1005,6 +1073,9 @@ button {
     }
     .news__item{
         height: 500px;
+    }
+    .services-page__items{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
