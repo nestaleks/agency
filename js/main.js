@@ -53,6 +53,8 @@ $('.top__slider').slick({
   dots: true,
   infinite: true,
   loop: true,
+  fade: true,
+  cssEase: 'linear',
   speed: 800,
   slidesToShow: 1,
   slidesToScroll: 1
