@@ -540,6 +540,13 @@ button {
 .project__name-subtitle{
     font-size: 24px;
     text-align: center;
+    margin-bottom: 35px;
+}
+.project__name-img{
+    display: flex;
+    margin: 0 auto;
+    max-width: 90%;
+    margin-bottom: 30px;
 }
 .project__gallery-title{
     font-size: 30px;
@@ -804,7 +811,6 @@ button {
     .listings__item-icons-text{
         font-size: 11px;
     }
-    
 }
 
 @media(max-width: 1120px) {
@@ -951,7 +957,6 @@ button {
         width: 300px;
     }
 }
-
 @media(max-width: 768px) {
     .top__slider-text{
         width: 500px;
