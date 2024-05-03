@@ -358,7 +358,7 @@ button {
 .projects__items{
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
 }
 .projects__item{
@@ -405,38 +405,32 @@ button {
 .inprogress__items{
     display: grid;
     /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
 }
 .inprogress__item{
     min-height: 100%;
     padding: 20px;
-    color: #000000;
+    color: #ffffff;
     height: 350px;
 }
 .inprogress-1{
     background-image: url(../images/inprogress-1-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left;
+    background-position: bottom right;
 }
 .inprogress-2{
     background-image: url(../images/inprogress-2-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
-}
-.inprogress-3{
-    background-image: url(../images/inprogress-3-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top left;
+    color: #000000;
 }
 .inprogress__item-title{
     font-size: 25px;
     line-height: 1.4;
     text-transform: uppercase;
-
     border-bottom: 1px solid #ffffff;
 }
 .inprogress__item-subtitle{
