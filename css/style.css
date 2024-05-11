@@ -566,7 +566,7 @@ button {
 }
 .info-table{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 15px;
 }
 .info-table td{
     padding: 12px;
