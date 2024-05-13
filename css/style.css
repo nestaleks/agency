@@ -732,8 +732,8 @@ button {
         left: 0;
         width: 480px;
         margin: 0 auto;
-        background-color: #afaeae;
-        color: #000000;
+        background-color: #ffffff;
+        color: #237385;
         display: block;
         text-align: center;
         padding: 80px 0;
@@ -754,10 +754,10 @@ button {
     }
     .menu__link{
         font-size: 25px;
-        color: #424467;
+        color: #237385;
     }
     .menu__link::before {
-        background-color: #424467;
+        background-color: #237385;
     }
     .menu__btn{
         display: flex;
