@@ -51,7 +51,7 @@ button {
     color: #FF8A63;
     font-size: 14px;
     font-weight: 400;
-    line-height: 19.6px;
+    line-height: 20px;
     letter-spacing: 2px;
     text-align: left;
     text-transform: uppercase;
@@ -204,7 +204,12 @@ button {
     border-radius: 20px;
     background-color: rgba(33, 166, 206, 0.301);
 }
-.slick-dots{
+.slick-dots {
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    left: 0;
+    right: 0;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -268,7 +273,7 @@ button {
     width: 490px;
     font-size: 48px;
     font-weight: 400;
-    line-height: 52.8px;
+    line-height: 53px;
     letter-spacing: 0;
     text-align: left;
     color: #237385;
@@ -278,7 +283,7 @@ button {
 }
 .goal__text{
     font-size: 16px;
-    line-height: 22.4px;
+    line-height: 22px;
 
 }
 .goal__text + .goal__text{
@@ -300,14 +305,14 @@ button {
 .author__name{
     font-size: 16px;
     font-weight: 400;
-    line-height: 22.4px;
-    letter-spacing: 0%;
+    line-height: 22px;
+    letter-spacing: 0;
 }
 .author__work{
     color: rgb(111, 114, 120);
     font-size: 12px;
     font-weight: 400;
-    line-height: 16.8px;
+    line-height: 17px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -337,7 +342,7 @@ button {
     margin-bottom: 25px;
 }
 .direction__item-img{
-    width:calc( ( 100% - 40px ) / 2 );
+    width: calc( ( 100% - 40px ) / 2 );
     object-fit: contain;
 }
 .house{
@@ -352,7 +357,7 @@ button {
     max-width: 574px;
     font-size: 18px;
     line-height: 1.2;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     margin-bottom: 30px;
 }
 .projects__items{
@@ -393,7 +398,7 @@ button {
     max-width: 574px;
     font-size: 18px;
     line-height: 1.2;
-    letter-spacing: 0%;
+    letter-spacing: 0;
     margin-bottom: 30px;
 }
 .inprogress__items{
@@ -665,7 +670,7 @@ button {
     margin-bottom: 25px;
 }
 .investments__item-img{
-    width:calc( ( 100% - 40px ) / 2.5 );
+    width: calc( ( 100% - 40px ) / 2.5 );
     object-fit: contain;
 }
 /******** страница услуги ********/
@@ -804,7 +809,7 @@ button {
         grid-row-gap: 20px;
     }
     .investments__item-img{
-        width:calc( ( 100% - 40px ) / 2 );
+        width: calc( ( 100% - 40px ) / 2 );
     }
     .footer__blockquote{
         width: 270px;
