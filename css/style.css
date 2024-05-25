@@ -207,7 +207,7 @@ button {
 .slick-dots {
     position: absolute;
     top: auto;
-    bottom: 10px;
+    bottom: 40px;
     left: 0;
     right: 0;
     list-style: none;
