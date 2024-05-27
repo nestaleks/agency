@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48b2d9c1-ea91-461b-b9f0-e87bf7e938c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/boho-corner-apart-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/elevator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/living-area.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/parking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/playground.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/pool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icons/total-area.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boho-corner.html" beforeDir="false" afterPath="$PROJECT_DIR$/boho-corner.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/bathroom.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/bathroom.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/beds.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/beds.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,24 +32,33 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2gAd9Ll3rr1bxeyP7tZKSJ0a2LP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/РАБОТА/Dropbox/GitHub/agency/agency&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/РАБОТА/Dropbox/GitHub/agency/agency",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\РАБОТА\Dropbox\GitHub\agency\agency" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,11 +69,15 @@
       <updated>1715144173858</updated>
       <workItem from="1715144179405" duration="63000" />
       <workItem from="1716458872600" duration="1914000" />
-      <workItem from="1716621651281" duration="1571000" />
+      <workItem from="1716621651281" duration="3561000" />
+      <workItem from="1716792016174" duration="14332000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
