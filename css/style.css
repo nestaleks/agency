@@ -67,7 +67,7 @@ button {
 }
 .header {
     z-index: 3;
-
+    /*background-color: rgba(255, 255, 255, 0.6);*/
 }
 .header__inner {
     padding: 10px 0;
@@ -125,7 +125,7 @@ button {
 	font-size: 20px;
 	text-decoration: none;
     font-weight: 400;
-    color: #237385;
+    color: #000000;
 }
 
 .menu__link::before {
@@ -134,7 +134,7 @@ button {
 	left: 0; bottom: -5px;
 	width: 0;
 	height: 2px;
-	background-color: #237385;
+	background-color: #000000;
 }
 
 .menu__link:hover:before {
@@ -156,79 +156,32 @@ button {
     padding: 15px; /* Some padding */
 }
 .top{
-    margin-top: -72px;
-}
-/* версия большого слайдера */
-.top-slide-1{
     min-height: 100vh;
     position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/top__img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
-    background-image: url(../images/top-slide-1.jpg);
+    /*margin-top: -72px;*/
 }
-.top-slide-2{
-    min-height: 100vh;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    background-image: url(../images/top-slide-2.jpg);
-}
-.top-slide-3{
-    min-height: 100vh;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    background-image: url(../images/top-slide-3.jpg);
-}
-.top-slide-4{
-    min-height: 100vh;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    background-image: url(../images/top-slide-4.jpg);
-}
-.top__slider-item{
-    min-height: 100vh;
-}
-.top__slider-text{
-    position: absolute;
-    color: #ffffff;
-    font-size: 50px;
-    top: auto;
-    bottom: 150px;
-    left: 50px;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: rgba(33, 166, 206, 0.301);
-}
-.slick-dots {
-    position: absolute;
-    top: auto;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    list-style: none;
+.top__inner{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
-.slick-dots button{
-    width: 25px;
-    height: 6px;
-    border-radius: 4px;
-    border: none;
-    font-size: 0;
-    background-color: #d1d1d1;
-    padding: 0;
-    margin: 0 5px;
+.top__title{
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin: 330px auto 40px;
 }
-.slick-dots .slick-active button{
-    background-color: #237385;
-}
-
 .scroll {
     width: 70px;
     position: absolute;
@@ -864,12 +817,13 @@ button {
 
 /******* АДАПТИВ*******/
 @media(max-width: 1440px) {
-    .top__slider-text{
-        width: 1100px;
-    }
 }
 
 @media(max-width: 1280px) {
+    .top__title{
+        font-size: 50px;
+        line-height: 1.4;
+    }
 }
 
 @media(max-width: 1120px) {
@@ -903,24 +857,16 @@ button {
     }
     .menu__link{
         font-size: 25px;
-        color: #237385;
+        color: #000000;
     }
     .menu__link::before {
-        background-color: #237385;
+        background-color: #000000;
     }
     .menu__btn{
         display: flex;
     }
     .menu__close{
         display: block;
-    }
-    .top__slider-text{
-        width: 800px;
-        font-size: 40px;
-        top: auto;
-        bottom: 250px;
-        left: 50px;
-        padding: 30px;
     }
 }
 
@@ -1029,16 +975,12 @@ button {
     }
 }
 @media(max-width: 768px) {
-    .top__slider-text{
-        width: 500px;
-        font-size: 35px;
-        bottom: 150px;
-        left: 30px;
-        right: 30px;
-        padding: 10px;
+    .top__logo{
+        margin: 150px auto 40px;
     }
-    .slick-dots {
-        bottom: 70px;
+    .top__title{
+        font-size: 40px;
+        line-height: 1.4;
     }
     .goal__inner{
         flex-direction: column;
@@ -1117,6 +1059,10 @@ button {
         cursor: pointer;
         padding: 10px;
     }
+    .top__title{
+        font-size: 35px;
+        line-height: 1.4;
+    }
     .menu__list{
         width: 400px;
     }
@@ -1161,10 +1107,6 @@ button {
     }
     .menu__list{
         width: 300px;
-    }
-    .top__slider-text{
-        width: 320px;
-        font-size: 28px;
     }
     .partner__img{
         width: 120px;
@@ -1276,10 +1218,6 @@ button {
     }
     .menu__list{
         width: 280px;
-    }
-    .top__slider-text{
-        width: 280px;
-        font-size: 24px;
     }
     .direction__item-title{
         font-size: 20px;

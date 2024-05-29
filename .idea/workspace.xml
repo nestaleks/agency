@@ -5,34 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48b2d9c1-ea91-461b-b9f0-e87bf7e938c8" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_01.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_02.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_03.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_04.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_01.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_02.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_03.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_04.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_05.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_06.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_07.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/top__img1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/foners/foners.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/foners/foners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/solivar/solivar.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/solivar/solivar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top-slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top-slide-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top-slide-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top-slide-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top__img reserv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top__img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/top__img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top__logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +88,7 @@
       <workItem from="1716886480737" duration="97000" />
       <workItem from="1716886606249" duration="59000" />
       <workItem from="1716886683528" duration="3844000" />
-      <workItem from="1716964731441" duration="11924000" />
+      <workItem from="1716964731441" duration="15694000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -139,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716982294363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <option name="closed" value="true" />
+      <created>1716984850341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716984850341</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
