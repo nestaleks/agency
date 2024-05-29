@@ -74,7 +74,7 @@ $(document).ready(function() {
 	$('.project__gallery-items').magnificPopup({
 		delegate: 'a',
 		type: 'image',
-		tLoading: 'Loading image #%curr%...',
+		tLoading: 'Loading image',
 		mainClass: 'mfp-img-mobile',
 		gallery: {
 			enabled: true,
