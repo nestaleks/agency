@@ -5,121 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48b2d9c1-ea91-461b-b9f0-e87bf7e938c8" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/images/icons/garden.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/boho-corner-gallery-16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_01.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_02.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_03.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_04.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_05.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_06.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_07.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/boho-corner/listings_08.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/foners/foners-gallery-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/boho-corner/boho-corner-apart-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/boho-corner/boho-corner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/foners/foners.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_03.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/foners/listings_04.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_03.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_04.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_05.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_06.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/listings_07.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/foners/foners-apart-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/solivar/solivar-apart-7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boho-corner-apart-1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boho-corner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foners.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/boho-corner-gallery-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/foners-gallery-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/solivar-gallery-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/listings_01.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/listings_02.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/listings_03.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/listings_04.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/listings_05.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/listings_06.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/news-3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners-comfort-life.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/partners-mallorca.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/investments.html" beforeDir="false" afterPath="$PROJECT_DIR$/investments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.fancybox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solivar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/projects/solivar/solivar-gallery-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/foners/foners.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/foners/foners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/solivar/solivar.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/solivar/solivar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +105,7 @@
       <workItem from="1716886480737" duration="97000" />
       <workItem from="1716886606249" duration="59000" />
       <workItem from="1716886683528" duration="3844000" />
-      <workItem from="1716964731441" duration="9402000" />
+      <workItem from="1716964731441" duration="11924000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -210,7 +123,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716879725445</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <option name="closed" value="true" />
+      <created>1716982253761</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982253761</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <option name="closed" value="true" />
+      <created>1716982294363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982294363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
