@@ -67,7 +67,7 @@ button {
 }
 .header {
     z-index: 3;
-    background-color: rgba(1, 1, 1, 0.3);
+    background-color: rgba(35, 115, 133, 0.7);
 }
 .header__inner {
     padding: 10px 0;
