@@ -67,7 +67,7 @@ button {
 }
 .header {
     z-index: 3;
-    /*background-color: rgba(255, 255, 255, 0.6);*/
+    background-color: rgba(1, 1, 1, 0.3);
 }
 .header__inner {
     padding: 10px 0;
@@ -95,7 +95,7 @@ button {
 .menu__btn span{
     height: 2px;
     width: 100%;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .menu__list {
     display: flex;
@@ -125,7 +125,7 @@ button {
 	font-size: 20px;
 	text-decoration: none;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
 }
 
 .menu__link::before {
@@ -134,7 +134,7 @@ button {
 	left: 0; bottom: -5px;
 	width: 0;
 	height: 2px;
-	background-color: #000000;
+	background-color: #ffffff;
 }
 
 .menu__link:hover:before {
@@ -161,8 +161,9 @@ button {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/top__img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-    /*margin-top: -72px;*/
+    background-position: bottom center;
+    margin-top: -72px;
+    z-index: 1;
 }
 .top__inner{
     display: flex;
@@ -188,7 +189,7 @@ button {
     bottom: 20px;
     left: 0;
     z-index: 1;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     text-align: center;
     right: 0;
     margin-left: auto;
@@ -835,8 +836,8 @@ button {
         left: 0;
         width: 480px;
         margin: 0 auto;
-        background-color: #ffffff;
-        color: #237385;
+        background-color: #237385;
+        color: #ffffff;
         display: block;
         text-align: center;
         padding: 80px 0;
@@ -857,10 +858,10 @@ button {
     }
     .menu__link{
         font-size: 25px;
-        color: #000000;
+        color: #ffffff;
     }
     .menu__link::before {
-        background-color: #000000;
+        background-color: #ffffff;
     }
     .menu__btn{
         display: flex;
@@ -994,6 +995,9 @@ button {
     }
     .listings__item-type {
         font-size: 20px;
+    }
+    .listings__item-btn {
+        font-size: 13px;
     }
     .footer__inner{
         grid-template-columns: repeat(2, 1fr);
