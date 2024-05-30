@@ -239,7 +239,7 @@ button {
 .goal__text{
     font-size: 16px;
     line-height: 22px;
-
+    text-align: justify;
 }
 .goal__text + .goal__text{
     margin-top: 22px;
@@ -249,6 +249,8 @@ button {
     margin-top: 20px;
 }
 .author__img{
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }
 .author__box{
@@ -295,6 +297,7 @@ button {
 .direction__item-text{
     line-height: 1.4;
     margin-bottom: 25px;
+    text-align: justify;
 }
 .direction__item-img{
     width: calc( ( 100% - 40px ) / 2 );
@@ -343,11 +346,14 @@ button {
     font-size: 25px;
     line-height: 1.4;
     text-transform: uppercase;
-
     border-bottom: 1px solid #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
 }
 .projects__item-subtitle{
     margin-top: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
 }
 .inprogress__text{
     max-width: 574px;
@@ -379,16 +385,19 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
-    color: #000000;
 }
 .inprogress__item-title{
     font-size: 25px;
     line-height: 1.4;
     text-transform: uppercase;
     border-bottom: 1px solid #ffffff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
 }
 .inprogress__item-subtitle{
     margin-top: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
+    2px 2px 1px rgba(255, 255, 255, 0.75);
 }
 .footer{
     padding: 40px 0;
@@ -766,6 +775,7 @@ button {
 .investments__item-text{
     line-height: 1.4;
     margin-bottom: 25px;
+    text-align: justify;
 }
 .investments__item-img{
     width: calc( ( 100% - 40px ) / 2.5 );
@@ -810,6 +820,7 @@ button {
 }
 .services-page__item-text{
     line-height: 1.2;
+    text-align: justify;
 }
 
 
