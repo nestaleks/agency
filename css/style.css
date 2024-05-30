@@ -173,6 +173,7 @@ button {
     margin-bottom: 20px;
 }
 .top__title{
+    font-family: "Jost", sans-serif;
     color: #ffffff;
     font-size: 75px;
     font-weight: 400;
