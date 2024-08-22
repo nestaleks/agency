@@ -356,6 +356,10 @@ button {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
     2px 2px 1px rgba(255, 255, 255, 0.75);
 }
+.projects__item-img{
+    width: 70px;
+    height: 70px;
+}
 .inprogress__text{
     max-width: 574px;
     font-size: 18px;
@@ -575,7 +579,7 @@ button {
 }
 .listings__items{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     margin-bottom: 30px;
 }
@@ -620,8 +624,8 @@ button {
     background-color: rgb(111, 114, 120);
     font-family: "Jost", sans-serif;
     font-weight: 700;
-    font-size: 18px;
-    padding: 8px 20px;
+    font-size: 16px;
+    padding: 9px 16px;
     border-radius: 5px;
 }
 .listings__item-price{
@@ -881,6 +885,14 @@ button {
     .menu__close{
         display: block;
     }
+    .listings__items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    .listings__item-price {
+        font-size: 20px;
+    }
 }
 
 @media(max-width: 1024px) {
@@ -920,14 +932,7 @@ button {
     .info-table p{
         width: 80px;
     }
-    .listings__items{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 20px;
-    }
-    .listings__item-price {
-        font-size: 20px;
-    }
+    
     .project__details-items{
         grid-template-columns: repeat(2, 1fr);
         row-gap: 10px;
