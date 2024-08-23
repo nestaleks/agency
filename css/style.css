@@ -482,9 +482,10 @@ button {
     margin-top: 40px;
 }
 .footer__social-list{
-    display: flex;
+    display: none;
+    /* display: flex;
     align-items: center;
-    gap: 0 20px;
+    gap: 0 20px; */
 }
 .footer__social-link{
     display: grid;
@@ -1216,8 +1217,9 @@ button {
         display: none;
     }
     .footer__social-list {
-        display: flex;
-        justify-content: center;
+        display: none;
+        /* display: flex;
+        justify-content: center; */
     }
     .map__iframe{
         width: 280px;
