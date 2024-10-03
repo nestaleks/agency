@@ -245,35 +245,6 @@ button {
 .goal__text + .goal__text{
     margin-top: 22px;
 }
-.author__item{
-    display: flex;
-    margin-top: 20px;
-}
-.author__img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-.author__box{
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.author__name{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0;
-}
-.author__work{
-    color: rgb(111, 114, 120);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
 .direction__title{
     max-width: 575px;
     margin-bottom: 25px;

@@ -2,6 +2,7 @@
 const menuBtn = document.querySelector('.menu__btn');
 const menuList = document.querySelector('.menu__list');
 const menuClose = document.querySelector('.menu__close');
+const menuLink = document.querySelector('.menu__item');
 
 menuBtn.addEventListener('click', ()=>{
     menuList.classList.toggle('menu--open');
@@ -9,15 +10,10 @@ menuBtn.addEventListener('click', ()=>{
 menuClose.addEventListener('click', ()=>{
     menuList.classList.remove('menu--open');
 });
-
-//закриття бургера після кліку на посилання
-// $('.menu__btn').on('click', function () {
-// 	$('.menu__list').addClass('menu--open');
-//   });
-  
-//   $( '.menu__link' ).on("click", function(){
-// 	$('.menu__list').removeClass('menu--open');
-//   });
+// закриття бургера після кліку на посилання
+menuLink.addEventListener('click', ()=>{
+    menuList.classList.remove('menu--open');
+});
 
 
 
@@ -44,20 +40,6 @@ icons.forEach (icon => {
   icon.addEventListener('click', (event) => {
     icon.classList.toggle("open");
   });
-});
-
-// слайдер шапки
-$('.top__slider').slick({
-  autoplay: true,
-  arrows: false,
-  dots: true,
-  infinite: true,
-  loop: true,
-  fade: true,
-  cssEase: 'linear',
-  speed: 800,
-  slidesToShow: 1,
-  slidesToScroll: 1
 });
 
 
