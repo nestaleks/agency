@@ -403,6 +403,7 @@ button {
     margin-bottom: 20px;
 }
 .footer__blockquote-author{
+    display: none;
     font-size: 12px;
     font-style: normal;
 }
