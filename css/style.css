@@ -211,7 +211,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0 40px;
+    gap: 0 30px;
 }
 .partner__img{
     width: 300px;
