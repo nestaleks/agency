@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48b2d9c1-ea91-461b-b9f0-e87bf7e938c8" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/images/partners_rbk.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="48b2d9c1-ea91-461b-b9f0-e87bf7e938c8" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,14 +19,12 @@
     &quot;assignee&quot;: &quot;nestaleks&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="8e6d4ddf-6bb3-4613-a2a8-999094b2c00e" />
-        <option name="url" value="https://github.com/nestaleks/agency.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nestaleks/agency.git",
+    "accountId": "03f25fd1-f23f-48ee-b116-a9f3f843f0db"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -104,7 +97,7 @@
       <workItem from="1717515165010" duration="600000" />
       <workItem from="1717582662166" duration="598000" />
       <workItem from="1728036835916" duration="104000" />
-      <workItem from="1728977641039" duration="531000" />
+      <workItem from="1728977641039" duration="830000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />

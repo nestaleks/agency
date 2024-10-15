@@ -46,7 +46,7 @@ button {
 }
 
 .section__padding{
-    padding: 80px 0;
+    padding: 60px 0;
 }
 .pretitle{
     color: #FF8A63;
@@ -871,7 +871,7 @@ button {
 
 @media(max-width: 1024px) {
     .section__padding{
-        padding: 60px 0;
+        padding: 40px 0;
     }
     .partner__img{
         width: 200px;
@@ -1048,7 +1048,7 @@ button {
 
 @media(max-width: 560px) {
     .section__padding{
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .header__logo img {
         height: 40px;
