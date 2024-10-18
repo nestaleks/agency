@@ -1019,6 +1019,9 @@ button {
     .listings__item-price {
         font-size: 20px;
     }
+    .news__content-img{
+        width: 100%;
+    }
 }
 
 @media(max-width: 1024px) {
