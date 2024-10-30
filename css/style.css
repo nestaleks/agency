@@ -710,20 +710,47 @@ button {
     align-items: start;
 }
 .contacts__item-title{
+    text-transform: uppercase;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
 }
 .contacts__item-text{
+    width: 100%;
+    text-align: center;
     line-height: 1.4;
     margin-bottom: 10px;
+    min-height: 23px;
 }
 .contacts__item-phonenumber{
+    width: 100%;
+    text-align: center;
     margin-bottom: 10px;
+    min-height: 23px;
 }
 .contacts__item-email{
+    width: 100%;
+    text-align: center;
     margin-bottom: 10px;
     color: cornflowerblue;
+    min-height: 23px;
+}
+.contacts__item-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+}
+.contacts__item-img img{
+    display: flex;
+    align-items: center;
+    margin: 15px auto;
+    width: 50px;
+    height: 50px;
 }
 
 /******** страница инвестиции ********/
