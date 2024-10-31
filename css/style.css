@@ -358,7 +358,13 @@ button {
     background-position: bottom left;
 }
 .inprogress-2{
-    background-image: url(../images/inprogress-2-bg.jpg);
+    background-image: url(../images/arenal-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+.inprogress-3{
+    background-image: url(../images/luca-de-tena.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -511,6 +517,7 @@ button {
     width: 100%;
     aspect-ratio: 16 / 9;
     border-radius: 5px;
+    object-fit: cover;
 }
 .mfp-title {
     display: none;
