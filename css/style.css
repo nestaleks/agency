@@ -217,6 +217,44 @@ button {
     width: 300px;
 }
 
+.mallorca__inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+}
+.mallorca__content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.mallorca__section-title{
+    margin-bottom: 20px;
+}
+.mallorca__section-text{
+    margin-bottom: 10px;
+    line-height: 22px;
+    text-align: justify;
+}
+.mallorca__section-blockquote{
+    font-family: "Jost", sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 22px;
+    text-align: center;
+    font-style: italic;
+}
+.mallorca__img{
+    margin: auto 0;
+    height: 100%;
+}
+.mallorca__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .goal{
     background: rgb(250, 250, 252);
 }
@@ -247,7 +285,7 @@ button {
     margin-top: 22px;
 }
 .direction__title{
-    max-width: 575px;
+    max-width: 620px;
     margin-bottom: 25px;
 }
 .direction__item{
@@ -1064,6 +1102,10 @@ button {
     }
     .partner__img{
         width: 200px;
+    }
+    .mallorca__inner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     .goal__title{
         width: 410px;
