@@ -72,3 +72,8 @@ $(document).ready(function() {
 	});
 });
 
+
+function toggleAccordion() {
+    const accordion = document.getElementById("accordion");
+    accordion.classList.toggle("open");
+}

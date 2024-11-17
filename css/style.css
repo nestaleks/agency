@@ -314,12 +314,82 @@ button {
     width: calc( ( 100% - 40px ) / 2 );
     object-fit: contain;
 }
-.house{
-    background-image: url(../images/house.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    min-height: 100vh;
+.content {
+    text-align: center;
+}
+
+.accordion__btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #237385;
+    background-color: #237385;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+    width: 130px;
+    font-size: 14px;
+}
+
+.accordion__btn:hover {
+    background-color: #ffffff;
+    color: #237385;
+    border: 1px solid #237385;
+}
+
+.accordion__content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .1s ease-in-out, padding 0.8s ease-in-out;
+}
+
+.accordion__content.open {
+    display: flex;
+    flex-direction: column;
+    max-height: 700px; /* Достаточно большое значение, чтобы вместить весь контент */
+    padding-top: 20px;
+}
+
+.accordion__content-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.accordion__content-text {
+    margin-bottom: 20px;
+}
+.accordion__content-list{
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.accordion__content-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.accordion__content-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.accordion__contacts-btn{
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 1px solid #237385;
+    background-color: #237385;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+    width: 130px;
+    font-size: 14px;
+}
+.accordion__contacts-btn:hover {
+    background-color: #ffffff;
+    color: #237385;
+    border: 1px solid #237385;
 }
 
 .projects__text{
