@@ -1,3 +1,16 @@
+/* General styles */
+:root{
+    --main-white: #ffffff;
+    --main-black: #000000;
+    --main-tangerine: #FF8A63;
+    --main-blue: #237385;
+    --gray-background: #f0f0f0;
+    --details-background: #f3f3f3;
+    --listings-grey: #6F7278FF;
+    --header-color: #237385B2;
+    --header-text: #ffffff;
+}
+
 html{
     box-sizing: border-box;
 }
@@ -17,7 +30,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #000000;
+    color: var(--main-black);
     font-size: 16px;
     line-height: 1;
     font-family: "Poppins", sans-serif;
@@ -49,7 +62,7 @@ button {
     padding: 60px 0;
 }
 .pretitle{
-    color: #FF8A63;
+    color: var(--main-tangerine);
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -63,11 +76,11 @@ button {
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 11px;
-    color: #237385;
+    color: var(--main-blue);
 }
 .header {
     z-index: 3;
-    background-color: rgba(35, 115, 133, 0.7);
+    background-color: var(--header-color);
 }
 .header__inner {
     padding: 10px 0;
@@ -95,7 +108,7 @@ button {
 .menu__btn span{
     height: 2px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--main-white);
 }
 .menu__list {
     display: flex;
@@ -110,7 +123,7 @@ button {
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: var(--main-white);
     z-index: 1;
     transition: background-color .6s ease;
 }
@@ -125,7 +138,7 @@ button {
 	font-size: 20px;
 	text-decoration: none;
     font-weight: 400;
-    color: #ffffff;
+    color: var(--header-text);
 }
 
 .menu__link::before {
@@ -134,7 +147,7 @@ button {
 	left: 0; bottom: -5px;
 	width: 0;
 	height: 2px;
-	background-color: #ffffff;
+	background-color: var(--main-white);
 }
 
 .menu__link:hover:before {
@@ -174,7 +187,7 @@ button {
 }
 .top__title{
     font-family: "Jost", sans-serif;
-    color: #ffffff;
+    color: var(--main-white);
     font-size: 75px;
     font-weight: 400;
     line-height: 1.4;
@@ -271,7 +284,7 @@ button {
     line-height: 53px;
     letter-spacing: 0;
     text-align: left;
-    color: #237385;
+    color: var(--main-blue);
 }
 .goal__right{
     max-width: 576px;
@@ -321,9 +334,9 @@ button {
 .accordion__btn {
     margin-top: 20px;
     padding: 10px 20px;
-    border: 1px solid #237385;
-    background-color: #237385;
-    color: #fff;
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-blue);
+    color: var(--main-white);
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.8s ease;
@@ -332,9 +345,9 @@ button {
 }
 
 .accordion__btn:hover {
-    background-color: #ffffff;
-    color: #237385;
-    border: 1px solid #237385;
+    background-color: var(--main-white);
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue);
 }
 
 .accordion__content {
@@ -377,9 +390,9 @@ button {
 .accordion__contacts-btn{
     margin: 20px auto;
     padding: 15px 20px;
-    border: 1px solid #237385;
-    background-color: #237385;
-    color: #fff;
+    border: 1px solid var(--main-blue);
+    background-color: var(--main-blue);
+    color: var(--main-white);
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.8s ease;
@@ -387,9 +400,9 @@ button {
     font-size: 14px;
 }
 .accordion__contacts-btn:hover {
-    background-color: #ffffff;
-    color: #237385;
-    border: 1px solid #237385;
+    background-color: var(--main-white);
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue);
 }
 
 .projects__text{
@@ -408,7 +421,7 @@ button {
 .projects__item{
     min-height: 100%;
     padding: 20px;
-    color: #ffffff;
+    color: var(--main-white);
     height: 350px;
 }
 .projects-1{
@@ -427,7 +440,7 @@ button {
     font-size: 25px;
     line-height: 1.4;
     text-transform: uppercase;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid var(--main-white);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
     2px 2px 1px rgba(255, 255, 255, 0.75);
 }
@@ -456,7 +469,7 @@ button {
 .inprogress__item{
     min-height: 100%;
     padding: 20px;
-    color: #ffffff;
+    color: var(--main-white);
     height: 350px;
 }
 .inprogress-1{
@@ -481,7 +494,7 @@ button {
     font-size: 25px;
     line-height: 1.4;
     text-transform: uppercase;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid var(--main-white);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1),
     2px 2px 1px rgba(255, 255, 255, 0.75);
 }
@@ -493,8 +506,8 @@ button {
 .footer{
     padding: 40px 0;
     margin-top: auto;
-    color: #000000;
-    background-color: #f0f0f0;
+    color: var(--main-black);
+    background-color: var(--gray-background);
 }
 .footer__inner{
     display: grid;
@@ -593,7 +606,7 @@ button {
     margin-bottom: 35px;
 }
 .project__name-price{
-    color: #FF8A63;
+    color: var(--main-tangerine);
     font-size: 24px;
     font-weight: 700;
     text-align: center;
@@ -643,7 +656,7 @@ button {
     font-size: 20px;
 }
 .project__details-item:nth-child(odd){
-    background-color: #f3f3f3;
+    background-color: var(--details-background);
 }
 .project__details-icon{
     width: 50px;
@@ -661,7 +674,7 @@ button {
     margin-left: auto;
 }
 .listings{
-    background-color: #f0f0f0;
+    background-color: var(--gray-background);
 }
 .listings__text{
     max-width: 574px;
@@ -678,7 +691,7 @@ button {
 }
 .listing__item{
     width: 100%;
-    background-color: #ffffff;
+    background-color: var(--main-white);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -695,7 +708,7 @@ button {
     border-top-right-radius: 10px;
 }
 .listings__item-type{
-    color: rgb(111, 114, 120);
+    color: var(--listings-grey);
     font-size: 24px;
     font-family: "Jost", sans-serif;
     font-weight: 700;
@@ -713,8 +726,8 @@ button {
     margin-bottom: 10px;
 }
 .listings__item-btn{
-    color: #ffffff;
-    background-color: rgb(111, 114, 120);
+    color: var(--main-white);
+    background-color: var(--listings-grey);
     font-family: "Jost", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -722,8 +735,7 @@ button {
     border-radius: 5px;
 }
 .listings__item-price{
-    /*color: rgb(69, 82, 91);*/
-    color: #FF8A63;
+    color: var(--main-tangerine);
     font-family: "Jost", sans-serif;
     font-weight: 700;
     font-size: 24px;
@@ -750,7 +762,7 @@ button {
 }
 .listings__item-icons-text{
     width: 100%;
-    color: rgb(69, 82, 91);
+    color: var(--listings-grey);
     line-height: 1.4;
     font-size: 18px;
 }
@@ -787,7 +799,7 @@ button {
     padding-right: 50px;
 }
 .info-table tr:nth-child(odd){
-    background-color: #f3f3f3;
+    background-color: var(--details-background);
 }
 .info-table tr:hover{
     background-color: #eaf8fd;
@@ -857,7 +869,7 @@ button {
     height: 80px;
     border-radius: 100%;
     margin: 0 auto;
-    background-color: #f0f0f0;
+    background-color: var(--gray-background);
     margin-bottom: 20px;
 }
 .contacts__item-img img{
@@ -925,8 +937,8 @@ button {
     column-gap: 20px;
 }
 .services-page__item{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: var(--main-white);
+    color: var(--main-black);
     padding: 25px;
     border-radius: 10px;
     height: 100%;
@@ -1004,7 +1016,7 @@ button {
 
 /******* страница News *******/
 .news{
-    /* background-color: #f0f0f0; */
+    /* background-color: var(--gray-background); */
 }
 .news__title{
     margin-bottom: 30px;
@@ -1018,7 +1030,7 @@ button {
 .news__item{
     display: flex;
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: var(--gray-background);
     height: 410px;
     border-radius: 5px;
 }
@@ -1030,7 +1042,7 @@ button {
 }
 .news__item-category{
     padding: 0 30px;
-    color: rgb(255, 138, 99);
+    color: var(--main-tangerine);
     font-size: 12px;
     line-height: 1.4;
     letter-spacing: 2px;
@@ -1120,8 +1132,8 @@ button {
         left: 0;
         width: 480px;
         margin: 0 auto;
-        background-color: #237385;
-        color: #ffffff;
+        background-color: var(--main-blue);
+        color: var(--main-white);
         display: block;
         text-align: center;
         padding: 80px 0;
@@ -1142,10 +1154,10 @@ button {
     }
     .menu__link{
         font-size: 25px;
-        color: #ffffff;
+        color: var(--main-white);
     }
     .menu__link::before {
-        background-color: #ffffff;
+        background-color: var(--main-white);
     }
     .menu__btn{
         display: flex;
@@ -1196,7 +1208,7 @@ button {
     .project__details-item:nth-child(9),
     .project__details-item:nth-child(10)
     {
-        background-color: #f3f3f3;
+        background-color: var(--details-background);
     }
     .info-table{
         width: 100%;
@@ -1358,7 +1370,7 @@ button {
     .news__item{
         display: flex;
         flex-direction: column;
-        background-color: #ffffff;
+        background-color: var(--main-white);
         height: 550px;
     }
     .news__item-category{
@@ -1403,7 +1415,7 @@ button {
         line-height: 1.4;
     }
     .menu__list{
-        width: 400px;
+        width: 100%;
     }
     .partner__img{
         width: 150px;
@@ -1448,7 +1460,7 @@ button {
         line-height: 1.2;
     }
     .menu__list{
-        width: 300px;
+        /*width: 300px;*/
     }
     .partner__img{
         width: 120px;
@@ -1473,7 +1485,7 @@ button {
     }
     .project__details-item:nth-child(odd)
     {
-        background-color: #f3f3f3;
+        background-color: var(--details-background);
     }
     .listings__items{
         display: grid;
@@ -1576,7 +1588,7 @@ button {
         font-size: 35px;
     }
     .menu__list{
-        width: 280px;
+        /*width: 280px;*/
     }
     .direction__item-title{
         font-size: 20px;
