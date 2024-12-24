@@ -1553,6 +1553,9 @@ button {
     .footer__company{
         margin: 0 auto 40px;
     }
+    .footer__company-item {
+        text-align: center;
+    }
     .footer__nav-logo{
         margin: 0 auto 10px;
     }
