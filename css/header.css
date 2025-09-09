@@ -2,7 +2,7 @@
 .language-selector {
     position: relative;
     cursor: pointer;
-    z-index: 10;
+    z-index: 2;
 }
 
 .current-lang {
@@ -11,7 +11,7 @@
     padding: 0 15px;
     font-weight: 500;
     color: var(--main-white);
-    transition: all 0,3s ease;
+    transition: all 0.3s ease;
     margin-top: 5px;
 }
 
@@ -19,7 +19,7 @@
     content: '▼';
     font-size: 10px;
     margin-left: 5px;
-    transition: all 0,3s ease;
+    transition: all 0.3s ease;
 }
 
 .language-selector.active .current-lang::after {
@@ -44,7 +44,7 @@
     align-items: center;
     gap: 5px;
     padding: 8px 15px;
-    transition: all 0,3s ease;
+    transition: all 0.3s ease;
 }
 
 .language-dropdown img {
@@ -219,29 +219,5 @@
     }
     .menu__list{
         width: 100%;
-    }
-}
-
-@media(max-width: 480px) {
-    .menu__list {
-        position: fixed;
-        top: 0;
-        right: -100%;
-        width: 320px;
-        height: 100vh;
-        background-color: #fff;
-        padding: 140px 30px 30px;
-        transition: right 0.3s;
-        z-index: 100;
-    }
-
-    .menu__list.active {
-        right: 0;
-    }
-
-    .menu__close {
-        position: absolute;
-        top: 40px;
-        right: 30px;
     }
 }
